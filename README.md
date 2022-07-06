@@ -1,4 +1,4 @@
-## Oi, eu sou o Arthur!
+## Oi, eu sou o Arthur e esse é o meu portfólio!
 
 ### Feito pelo VsCode com:
 <div style="display: inline_block"><br>
