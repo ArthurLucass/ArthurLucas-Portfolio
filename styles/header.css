@@ -8,15 +8,15 @@ header {
   left: 0;
 }
 
-ul {
+header ul {
   display: flex;
   padding: 20px;
   background: transparent;
 }
-li {
+header li {
   background: transparent;
 }
-a {
+header a {
   color: #ffffff;
   padding: 15px;
   text-transform: uppercase;
@@ -25,6 +25,6 @@ a {
   background: transparent;
 }
 
-a:hover {
+header a:hover {
   color: #004aad;
 }

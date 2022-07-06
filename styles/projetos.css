@@ -1,0 +1,85 @@
+.container-projetos {
+  display: flex;
+  padding: 55px;
+  width: 100%;
+  align-items: center;
+}
+
+.img-projetos {
+  align-items: center;
+  width: 30%;
+  flex: 1;
+  margin-right: 100px;
+}
+
+.img-projetos img {
+  align-items: center;
+  width: 100%;
+}
+
+.section-projetos {
+  display: flex;
+  flex: 1;
+}
+.left,
+.right {
+  margin: 0px 20px;
+}
+.projeto {
+  width: 400px;
+  height: 220px;
+  margin-bottom: 30px;
+  border-bottom: 7px solid #004aad;
+}
+
+.text-projeto {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background: #ffffff;
+}
+.text-projeto p {
+  display: flex;
+  color: #ffffff;
+  margin: 20%;
+
+  border-radius: 5px;
+  background: #004aad;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: poppins, sans-serif;
+}
+
+.text-projeto a {
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: poppins, sans-serif;
+  transition: background 400ms;
+}
+
+.text-projeto a:hover {
+  border: 1px solid #004aad;
+  border-radius: 5px;
+  color: #004aad;
+  opacity: 1;
+  background: #ffffff;
+}
+
+.one {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/sats_background.png");
+}
+
+.three {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/ArtxLinks.png");
+}
