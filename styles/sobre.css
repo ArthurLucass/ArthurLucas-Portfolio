@@ -1,0 +1,32 @@
+/* .sobre {
+
+} */
+
+.container-sobre {
+  display: flex;
+  padding: 55px;
+  width: 100%;
+  align-items: center;
+}
+
+.img-sobre {
+  align-items: center;
+  width: 30%;
+}
+
+.img-sobre img {
+  align-items: center;
+  width: 100%;
+}
+
+.text-sobre {
+  width: 70%;
+}
+
+.text-sobre p {
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: poppins, sans-serif;
+}
