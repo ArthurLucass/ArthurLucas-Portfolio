@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+@import "./styles/header.css";
+@import "./styles/home.css";
+@import "./styles/citacao.css";
+@import "./styles/sobre.css";
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: #151a1c;
+}
+
+a,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.title-section {
+  display: flex;
+  margin-left: 20px;
+  border-left: 7px solid #004aad;
+}
+
+.title-section h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
