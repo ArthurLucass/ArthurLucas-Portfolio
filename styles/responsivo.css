@@ -1,0 +1,382 @@
+@media (max-width: 935px) {
+  .img-sobre,
+  .img-educacao,
+  .img-projetos {
+    display: none;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin: 10% 0px;
+    align-items: center;
+  }
+
+  .text-home {
+    padding: 15px;
+  }
+
+  p {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+  .redes {
+    text-align: center;
+  }
+
+  .img-home {
+    align-items: center;
+    width: 800px;
+  }
+
+  /* CITACAO */
+
+  .citacao {
+    margin-top: 45%;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-citacao {
+    width: 100%;
+    padding: 10%;
+    align-items: center;
+  }
+
+  .citacao img {
+    width: 100px;
+  }
+
+  .citacao p {
+    color: #004aad;
+    font-size: 42px;
+    font-weight: 800;
+    font-family: poppins, sans-serif;
+  }
+
+  .citacao address {
+    margin: 15px;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+  }
+
+  /* SOBRE */
+
+  .sobre {
+    margin: 10% 0;
+    height: 700px;
+  }
+
+  .container-sobre {
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .text-sobre {
+    width: 100%;
+  }
+
+  /* EDUCACAO */
+
+  .educacao {
+    margin: 10% 0;
+    height: 700px;
+  }
+  .container-educacao {
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .text-educacao {
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .info h1 {
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 20px;
+  }
+
+  /* PROJETOS */
+
+  .projetos {
+    height: 700px;
+  }
+  .container-projetos {
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .section-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projeto {
+    width: 450px;
+    height: 260px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #004aad;
+  }
+}
+
+@media (max-width: 605px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin: 10% 0px;
+    align-items: center;
+  }
+
+  .text-home {
+    padding: 15px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .img-home {
+    align-items: center;
+    width: 600px;
+  }
+
+  /* CITACAO */
+
+  .citacao {
+    margin-top: 34%;
+    height: 600px;
+  }
+
+  .citacao p {
+    font-size: 32px;
+  }
+
+  .citacao address {
+    margin: 15px;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+  }
+
+  /* SOBRE */
+
+  .sobre {
+    margin: 10% 0;
+    height: 700px;
+  }
+
+  .container-sobre {
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .text-sobre {
+    width: 100%;
+  }
+
+  .text-sobre p {
+    font-size: 25px;
+  }
+
+  /* EDUCACAO */
+
+  .educacao {
+    margin: 10% 0px;
+
+    height: 600px;
+  }
+  .container-educacao {
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .text-educacao {
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .info h1 {
+    font-size: 25px;
+  }
+  .info p {
+    font-size: 18px;
+  }
+
+  /* PROJETOS */
+
+  .projetos {
+    height: 700px;
+  }
+  .container-projetos {
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .section-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projeto {
+    width: 450px;
+    height: 260px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #004aad;
+  }
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+  .redes {
+    text-align: center;
+    width: 400px;
+  }
+
+  .img-home {
+    align-items: center;
+    width: 500px;
+  }
+
+  /* CITACAO */
+
+  .citacao p {
+    font-size: 26px;
+  }
+
+  .citacao address {
+    margin: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+  }
+
+  /* EDUCACAO */
+
+  .educacao {
+    margin: 25% 0px;
+
+    height: 600px;
+  }
+
+  /* PROJETO */
+
+  .projeto {
+    width: 410px;
+    height: 240px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #004aad;
+  }
+}
+
+@media (max-width: 450px) {
+  .home {
+    margin-top: 15%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+  .redes {
+    text-align: center;
+    width: 370px;
+  }
+
+  .redes img {
+    border-radius: 10px;
+    width: 50px;
+  }
+
+  .img-home {
+    align-items: center;
+    width: 450px;
+  }
+
+  /* CITACAO */
+
+  .citacao p {
+    font-size: 20px;
+  }
+
+  .citacao address {
+    margin: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+  }
+
+  /* SOBRE */
+
+  .text-sobre p {
+    font-size: 20px;
+  }
+  /* EDUCACAO */
+
+  .educacao {
+    margin: 25% 0px;
+
+    height: 400px;
+  }
+
+  .text-educacao h1 {
+    font-size: 22px;
+  }
+  .text-educacao p {
+    font-size: 12px;
+  }
+  /* PROJETO */
+
+  .projeto {
+    width: 350px;
+    height: 220px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #004aad;
+  }
+}
