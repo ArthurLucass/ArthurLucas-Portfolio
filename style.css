@@ -34,7 +34,7 @@ ul {
   margin-left: 15px;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 700px) {
   .img-sobre,
   .img-educacao,
   .img-projetos {
@@ -52,58 +52,58 @@ ul {
   .container-projetos,
   .container-citacao,
   .text-sobre {
-    width: 865px;
-  }
-
-  .container-citacao {
-    width: 820px;
+    width: 500px;
     margin-left: -15px;
   }
 
   header a {
-    font-size: 25px;
+    font-size: 16px;
   }
   .home {
     display: grid;
-    padding: 50px;
   }
 
   .home-left {
-    margin-top: 50px;
+    margin-top: 75px;
   }
 
   .text-home {
-    margin-left: -90px;
+    margin-left: -45%;
     padding: 0;
   }
 
   .text-home p {
-    font-size: 32px;
+    font-size: 26px;
   }
   .text-home h1 {
-    font-size: 42px;
+    font-size: 30px;
   }
 
   .img-home img {
-    width: 90%;
-    margin: 0px;
+    width: 455px;
+    margin-left: 10px;
   }
   .redes {
     text-align: center;
   }
 
   .citacao {
-    margin-top: -40px;
+    margin-top: 50px;
   }
   .citacao p {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px;
+  }
+  .citacao address {
+    font-size: 20px;
+    margin: 10px, 0px;
+    margin-bottom: 200px;
   }
 
   .text-sobre p {
-    margin-left: 15px;
+    margin-left: 10px;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     font-family: poppins, sans-serif;
   }
@@ -113,34 +113,35 @@ ul {
   }
 
   .info {
-    width: 550px;
-    margin-bottom: 30px;
+    width: 445px;
+    margin-left: -5px;
+    margin-bottom: 100px;
   }
   .info h1 {
     color: #000000;
     padding: 5px;
-    margin-bottom: 25px;
     border-radius: 5px;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 800;
     font-family: poppins, sans-serif;
     background: #ffffff;
     display: inline;
   }
   .info p {
+    margin-top: 7px;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     font-family: poppins, sans-serif;
   }
 
   .section-projetos {
     display: grid;
-    margin: 0 20%;
+    margin-left: -25px;
   }
   .projeto {
-    width: 470px;
-    height: 270px;
+    width: 420px;
+    height: 260px;
     margin-bottom: 20px;
     border-bottom: 7px solid #004aad;
   }
