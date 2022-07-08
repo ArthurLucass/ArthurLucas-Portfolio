@@ -71,7 +71,7 @@
 
   .sobre {
     margin: 10% 0;
-    height: 700px;
+    height: 800px;
   }
 
   .container-sobre {
@@ -136,6 +136,13 @@
     height: 260px;
     margin-bottom: 30px;
     border-bottom: 7px solid #004aad;
+  }
+}
+
+@media (max-width: 710px) {
+  .sobre {
+    margin: 10% 0;
+    height: 950px;
   }
 }
 
@@ -553,6 +560,7 @@
     border-bottom: 7px solid #004aad;
   }
 }
+
 @media (max-width: 300px) {
   header a {
     padding: 5px;
