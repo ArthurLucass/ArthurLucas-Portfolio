@@ -7,11 +7,17 @@
 @import "./styles/educacao.css";
 @import "./styles/projetos.css";
 
+@import "./styles/responsivo.css";
+
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
   background-color: #151a1c;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a,
