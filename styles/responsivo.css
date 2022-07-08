@@ -311,17 +311,22 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
+  header a {
+    padding: 10px;
+  }
+
   .home {
-    margin-top: 15%;
+    margin-top: 20%;
+    height: 500px;
   }
 
   p {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 27px;
   }
   .redes {
     text-align: center;
@@ -334,11 +339,17 @@
   }
 
   .img-home {
-    align-items: center;
-    width: 450px;
+    width: 400px;
   }
 
   /* CITACAO */
+
+  .citacao {
+    height: 300px;
+  }
+  .citacao img {
+    width: 70px;
+  }
 
   .citacao p {
     font-size: 20px;
@@ -347,26 +358,26 @@
   .citacao address {
     margin: 15px;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     font-family: poppins, sans-serif;
   }
 
   /* SOBRE */
-
+  .sobre {
+    height: 550px;
+  }
   .text-sobre p {
-    font-size: 20px;
+    font-size: 18px;
   }
   /* EDUCACAO */
 
   .educacao {
-    margin: 25% 0px;
-
     height: 400px;
   }
 
   .text-educacao h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .text-educacao p {
     font-size: 12px;
@@ -374,8 +385,94 @@
   /* PROJETO */
 
   .projeto {
-    width: 350px;
-    height: 220px;
+    width: 330px;
+    height: 200px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #004aad;
+  }
+}
+
+@media (max-width: 370px) {
+  header a {
+    padding: 5px;
+  }
+
+  .home {
+    margin-top: 20%;
+    height: 510px;
+    margin-left: 20px;
+  }
+
+  .text-home {
+    margin-left: 30px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+  .redes {
+    text-align: center;
+    width: 370px;
+  }
+
+  .redes img {
+    border-radius: 10px;
+    width: 50px;
+  }
+
+  .img-home {
+    width: 370px;
+  }
+
+  /* CITACAO */
+
+  .citacao {
+    height: 310px;
+  }
+  .citacao img {
+    width: 60px;
+  }
+
+  .citacao p {
+    font-size: 17px;
+  }
+
+  .citacao address {
+    margin: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+  }
+
+  /* SOBRE */
+  .sobre {
+    height: 550px;
+  }
+  .text-sobre p {
+    font-size: 16px;
+  }
+  /* EDUCACAO */
+
+  .educacao {
+    height: 370px;
+  }
+
+  .text-educacao h1 {
+    font-size: 18px;
+  }
+  .text-educacao p {
+    font-size: 12px;
+  }
+  /* PROJETO */
+
+  .projeto {
+    width: 320px;
+    height: 185px;
     margin-bottom: 30px;
     border-bottom: 7px solid #004aad;
   }
