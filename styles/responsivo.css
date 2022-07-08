@@ -477,3 +477,93 @@
     border-bottom: 7px solid #004aad;
   }
 }
+@media (max-width: 300px) {
+  header a {
+    padding: 5px;
+  }
+
+  .home {
+    margin-top: 20%;
+    height: 510px;
+    margin-left: 25%;
+  }
+
+  p {
+    margin-top: 5%;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+  .redes {
+    text-align: center;
+    width: 360px;
+  }
+
+  .redes img {
+    border-radius: 10px;
+    width: 50px;
+  }
+
+  .img-home {
+    width: 370px;
+  }
+
+  /* CITACAO */
+
+  .citacao {
+    margin-left: 22%;
+    height: 300px;
+  }
+  .citacao img {
+    width: 50px;
+  }
+
+  .citacao p {
+    font-size: 13px;
+  }
+
+  .citacao address {
+    margin: 15px;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+  }
+
+  /* SOBRE */
+  .sobre {
+    height: 560px;
+  }
+  .text-sobre {
+    margin-left: 5%;
+  }
+  .text-sobre p {
+    font-size: 15px;
+  }
+
+  /* EDUCACAO */
+
+  .educacao {
+    height: 380px;
+  }
+  .text-educacao {
+    margin-left: 5%;
+  }
+
+  .text-educacao h1 {
+    font-size: 14px;
+  }
+  .text-educacao p {
+    font-size: 10px;
+  }
+  /* PROJETO */
+
+  .projeto {
+    width: 300px;
+    height: 170px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #004aad;
+  }
+}
