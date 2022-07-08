@@ -311,6 +311,82 @@
   }
 }
 
+@media (max-width: 450px) {
+  .home {
+    margin-top: 15%;
+    height: 600px;
+
+    margin-left: 15%;
+  }
+
+  p {
+    margin-top: 5%;
+  }
+
+  .redes {
+    text-align: center;
+    width: 400px;
+  }
+
+  .img-home {
+    width: 450px;
+  }
+
+  /* CITACAO */
+
+  .citacao {
+    height: 450px;
+    margin-left: 10%;
+  }
+  .citacao p {
+    font-size: 25px;
+  }
+
+  .citacao address {
+    margin: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+  }
+
+  /* SOBRE */
+
+  .sobre {
+    height: 900px;
+  }
+  .sobre p {
+    font-size: 24px;
+  }
+
+  /* EDUCACAO */
+
+  .educacao {
+    margin: 25% 0px;
+
+    height: 500px;
+  }
+
+  .text-educacao {
+    margin-left: 3%;
+  }
+  .text-educacao h1 {
+    font-size: 20px;
+  }
+  .text-educacao p {
+    font-size: 16px;
+  }
+
+  /* PROJETO */
+
+  .projeto {
+    width: 370px;
+    height: 200px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #004aad;
+  }
+}
+
 @media (max-width: 400px) {
   header a {
     padding: 10px;
