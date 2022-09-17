@@ -46,7 +46,6 @@
 .text-projeto p {
   display: flex;
   color: #ffffff;
-  margin: 20%;
 
   border-radius: 5px;
   background: #004aad;
@@ -57,6 +56,7 @@
 }
 
 .text-projeto a {
+  display: flex;
   padding: 5px;
   font-size: 25px;
   font-weight: 400;
@@ -85,4 +85,10 @@
   background-position: center;
   background-size: cover;
   background-image: url("../assets/ArtxLinks.png");
+}
+.three {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/jogoDaMemoria.png");
 }
